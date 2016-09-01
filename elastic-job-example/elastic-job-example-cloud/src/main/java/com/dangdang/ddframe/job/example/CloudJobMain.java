@@ -17,13 +17,13 @@
 
 package com.dangdang.ddframe.job.example;
 
-import com.dangdang.ddframe.job.cloud.agent.Bootstrap;
+import com.dangdang.ddframe.job.cloud.api.JobBootstrap;
 
 public class CloudJobMain {
     
     // CHECKSTYLE:OFF
     public static void main(final String[] args) {
     // CHECKSTYLE:ON
-        Bootstrap.execute();
+        JobBootstrap.execute();
     }
 }
